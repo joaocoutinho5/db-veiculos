@@ -24,5 +24,7 @@ namespace primeiro_projeto_c_.Models
         [Required(ErrorMessage = "O campo {0} é obrigatório.")]
         [Display(Name = "Ano do Modelo")]
         public int AnoModelo { get; set; }
+
+        public ICollection<Consumo> Consumos { get; set; }
     }
 }

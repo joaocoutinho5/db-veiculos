@@ -15,11 +15,11 @@ O sistema simula uma aplicação de **cadastro e gerenciamento de veículos**, c
 ### Funcionalidades Implementadas
 
 -  **CRUD de veículos**:
-  - Listagem
-  - Visualização de detalhes
-  - Edição de dados
-  - Exclusão
-  - Cadastro de novos veículos
+    - Cadastro de novos veículos
+    - Listagem
+    - Visualização de detalhes
+    - Edição de dados
+    - Exclusão
 
 -  **CRUD de consumos por veículo**:
   - Cada consumo contém:

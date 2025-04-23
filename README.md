@@ -1,32 +1,60 @@
-# Projeto de Estudo - Banco de Dados de Veículos
+# Projeto de Estudo – Banco de Dados de Veículos
 
-Este repositório foi criado com o objetivo de **estudo e prática** no desenvolvimento de aplicações web utilizando as tecnologias:
+Este repositório foi criado com o objetivo de **estudo e prática** no desenvolvimento de aplicações web utilizando tecnologias modernas da plataforma .NET.
+
+## Tecnologias Utilizadas
 
 - **.NET**
 - **ASP.NET MVC**
-- **Entity Framework**
+- **Entity Framework Core**
 
-## Sobre o projeto
+## Sobre o Projeto
 
-O projeto simula um sistema básico de cadastro e gerenciamento de veículos em um banco de dados, permitindo operações como:
+O sistema simula uma aplicação de **cadastro e gerenciamento de veículos**, com funcionalidades que evoluíram ao longo do processo de aprendizado. Agora, o projeto inclui múltiplos módulos com operações completas de CRUD.
 
-- Listagem de veículos
-- Edição de informações
-- Visualização de detalhes
-- Exclusão de registros
-- Criação de novos cadastros
+### Funcionalidades Implementadas
 
-Este não é um projeto finalizado nem voltado para produção, mas sim um **exercício prático** que estou utilizando para **aprender e entender o funcionamento do ASP.NET MVC e do Entity Framework**.
+-  **CRUD de veículos**:
+  - Listagem
+  - Visualização de detalhes
+  - Edição de dados
+  - Exclusão
+  - Cadastro de novos veículos
 
-## Objetivo
+-  **CRUD de consumos por veículo**:
+  - Cada consumo contém:
+    - Descrição
+    - Valor pago
+    - Data do consumo
+    - Quilometragem do carro no momento
+    - Associação ao veículo correspondente
+  - Página de **relatório** individual por carro com:
+    - Listagem de todos os consumos
+    - **Somatória total de gastos** daquele veículo
 
-Aprender na prática como:
+-  **CRUD de usuários com controle de acesso**:
+  - Somente **administradores** podem:
+    - Cadastrar novos usuários
+    - Gerenciar contas existentes
+  - **Sistema de login** com distinção entre:
+    - **Usuários comuns** (acesso restrito)
+    - **Administradores** (acesso total ao sistema)
 
-- Estruturar um projeto ASP.NET MVC
-- Trabalhar com o Entity Framework para acesso ao banco de dados
-- Criar controllers, views e models integrados
-- Usar scaffolding e gerar componentes automaticamente
+## Objetivos do Projeto
+
+Este projeto tem como foco principal o **aprendizado prático** de conceitos fundamentais no desenvolvimento web com ASP.NET:
+
+- Estruturar e organizar projetos com padrão MVC
+- Integrar o **Entity Framework** para comunicação com banco de dados relacional
+- Utilizar **scaffolding** para gerar componentes com agilidade
+- Implementar autenticação, autorização e controle de perfis de usuário
+- Trabalhar com **relacionamentos entre tabelas** (ex: veículos e consumos)
+- Criar funcionalidades úteis como **relatórios com totais dinâmicos**
+
+## Observações
+
+> Este é um projeto de estudo, **não destinado ao uso em produção**. A ideia é explorar o ciclo completo de desenvolvimento com ASP.NET MVC.
 
 ---
 
-Este repositório serve como base de aprendizado. Feedbacks e dicas são sempre bem-vindos!
+**Feedbacks, sugestões e dicas são super bem-vindos!** Estou sempre buscando melhorar e aprender mais sobre o universo .NET e desenvolvimento web.
